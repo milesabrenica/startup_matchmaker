@@ -1,0 +1,308 @@
+
+/*OWN STYLES*/
+body{
+	font-family: arial;
+}
+
+#wrap{
+	width:960px;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	color:#f4fb00;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	margin:0px;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	margin: 0 25px 0 0;
+
+}
+
+nav{
+	font-family: arial;
+	float:right;
+}
+
+nav a.find{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+	padding:35px 45px;
+	background-color: #000000;
+	border-bottom: 3px solid #f4fb00;
+}
+
+#subtitle h2{
+	background-color: #c6c6c6;
+	text-align: center;
+	padding: 15px;
+	font-style: italic;
+	font-family: georgia;
+	margin:0px;
+	font-size: 20px;
+}
+
+#main{
+	height:640px;
+	position:relative;
+	background: url('assets/college-students.jpg') no-repeat center center ;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover
+}
+
+.floatbox{
+	line-height: 30px;
+	background-color: rgba(255,255,255,0.75);
+	float: right;
+	width: 235px;
+	position: absolute;
+	top: 55px;
+	right: 65px;
+	padding: 35px;
+}
+#options{
+	height: 250px;
+	padding: 20px 0 20px 0;
+	margin:0 auto;
+	width: 960px;
+}
+.create_find{
+	width: calc(95%/3);
+	width: 30%;
+	float: left;
+	height: 220px;
+	padding: 0 1%;
+	line-height: 30px;
+	border-right: 1px solid #cccccc;
+}
+
+.last{
+	border:none;
+}
+
+button{
+	display: block;
+  	margin: 20px auto;
+  	width: 225px;
+  	height: 40px;	
+	background: #c6c6c6;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Fjalla One', sans-serif;
+	border-radius: 5px;
+}
+
+.yellowbutton{
+	width: 225px;
+	height: 40px;
+	background: #f4fb00;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Fjalla One', sans-serif;
+	border-radius: 5px;
+}
+
+/*DESIGNER PROFILE STYLES*/
+#designers{
+	width: 95%;
+	height:375px;
+  	margin: 0 auto;
+}
+#designer_page{
+	background-color: #cccccc;
+	margin:0 auto;
+	display:none;
+	
+}
+
+.designer-profile{
+	background-color: #ffffff;
+	height: 390px;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.designer-profile .yellowbutton{
+	width: 100%;
+}
+
+.designer-photo{
+	margin: 0 auto;
+	width: 280px;
+	height: 280px;
+	background-color: #cccccc;
+}
+
+
+/*DEVELOPER PROFILE STYLES*/
+
+#developers{
+	width: 95%;
+	height:375px;
+  	margin: 0 auto;
+}
+#developer_page{
+	background-color: #cccccc;
+	margin:0 auto;
+	display:none;
+}
+
+.developer-profile{
+	background-color: #ffffff;
+	height: 390px;
+	width: 280px;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.developer-profile .yellowbutton{
+	width: 100%;
+}
+
+.developer-photo{
+	margin: 0 auto;
+	width: 280px;
+	height: 280px;
+	background-color: #cccccc;
+}
+
+.name{
+	margin:10px 0px 0px 0px;
+}
+
+li.tag{
+	background-color: #818181;
+	border-radius: 10px;
+	color: #ffffff;
+	float: left;
+	padding: 7px;
+	margin: 10px 5px 10px 0px;
+	font-size: 12px;
+}
+
+
+/*FOOTER STYLES*/
+
+
+footer{
+	clear:both;
+	padding:10px 10px 10px 10px;
+	height:25px;
+	color:#ffffff;
+	background-color: #000000;
+}
+
+strike{
+	color:#575757;
+}
+
+span{
+	border-bottom: 2px solid #f4fb00
+}
+
+.clearfix{
+	clear:both;
+}
+
+
+
+/*RESPONSIVE DESIGN*/
+
+
+@media screen and (max-width: 680px){
+	body{
+		width:100%;
+	}
+
+	nav{
+		float:none;
+	}
+
+	img{
+		display:none;
+	}	
+	
+	h1{
+		font-size: 100%;
+	}
+	
+	nav{
+		width:100px;
+	}
+	
+	.topnav a{
+		float:none;
+		margin:10px;
+		width:100px;	
+	}
+
+	#subtitle{
+		clear: both;
+	}
+
+	#main{
+		position: none;
+		width:100%;
+		background-color:#000;
+		background-image: none;
+	}
+
+	.floatbox{
+		line-height: 30px;
+		background-color: rgba(255,255,255,0.75);
+		margin:0 auto;
+	}
+	
+	.create_find{
+		float:none;
+		border:none;
+	}
+	
+	.create_find #options {
+		width: 100%;
+		border: none;
+		float:none;
+		text-align: left;
+	}
+	
+	#designer_page{
+		width: 100%;
+		float:none;
+	}
+	
+	#designers{
+		width: 960px;
+		margin:0 auto;
+	}
+	
+	.designer-profile{
+		width: 100%;
+		float: none;
+	}
+	
+	.designer-photo{
+		width: 100%;
+	}
+	
+	footer{
+		display: none;
+	}
+}
