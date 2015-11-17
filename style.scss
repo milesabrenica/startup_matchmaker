@@ -57,23 +57,21 @@ header{
 #main{
 	height:640px;
 	position:relative;
-	background: url('assets/college-students.jpg') no-repeat center center ;
-	-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover
+	background-image: url('/assets/mac.jpg');
+	background-size: cover;
+	
+	.floatbox{
+		line-height: 30px;
+		background-color: rgba(255,255,255,0.75);
+		float: right;
+		width: 235px;
+		position: absolute;
+		top: 55px;
+		right: 65px;
+		padding: 35px;
+	}
 }
 
-.floatbox{
-	line-height: 30px;
-	background-color: rgba(255,255,255,0.75);
-	float: right;
-	width: 235px;
-	position: absolute;
-	top: 55px;
-	right: 65px;
-	padding: 35px;
-}
 #options{
 	height: 250px;
 	padding: 20px 0 20px 0;
@@ -105,83 +103,76 @@ button{
 	font-size: 18px;
 	font-family: 'Fjalla One', sans-serif;
 	border-radius: 5px;
+
+	.yellowbutton{
+		width: 225px;
+		height: 40px;
+		background: #f4fb00;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 18px;
+		font-family: 'Fjalla One', sans-serif;
+		border-radius: 5px;
+	}
 }
 
-.yellowbutton{
-	width: 225px;
-	height: 40px;
-	background: #f4fb00;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 18px;
-	font-family: 'Fjalla One', sans-serif;
-	border-radius: 5px;
-}
+
 
 /*DESIGNER PROFILE STYLES*/
-#designers{
-	width: 95%;
-	height:375px;
-  	margin: 0 auto;
-}
+
 #designer_page{
 	background-color: #cccccc;
 	margin:0 auto;
 	display:none;
 	
-}
+	#designers{
+	  	margin: 0 auto;
+	  	float: left;
+		
+		.designer-profile{
+			background-color: #ffffff;
+			height: 390px;
+			margin: 5px;
+			padding: 10px;
+			float: left;
 
-.designer-profile{
-	background-color: #ffffff;
-	height: 390px;
-	margin: 5px;
-	padding: 10px;
-	float: left;
+		}
+	}	
 }
 
 .designer-profile .yellowbutton{
 	width: 100%;
 }
 
-.designer-photo{
-	margin: 0 auto;
-	width: 280px;
-	height: 280px;
-	background-color: #cccccc;
-}
-
-
 /*DEVELOPER PROFILE STYLES*/
 
-#developers{
-	width: 95%;
-	height:375px;
-  	margin: 0 auto;
-}
 #developer_page{
 	background-color: #cccccc;
 	margin:0 auto;
 	display:none;
-}
 
-.developer-profile{
-	background-color: #ffffff;
-	height: 390px;
-	width: 280px;
-	margin: 5px;
-	padding: 10px;
-	float: left;
+	#developers{
+	  	margin: 0 auto;
+	  	float: left;
+		
+		.developer-profile{
+			background-color: #ffffff;
+			height: 390px;
+			width: 280px;
+			margin: 5px;
+			padding: 10px;
+			float: left;
+		}
+	}
 }
 
 .developer-profile .yellowbutton{
 	width: 100%;
 }
 
-.developer-photo{
-	margin: 0 auto;
+.nophoto{
 	width: 280px;
 	height: 280px;
-	background-color: #cccccc;
 }
 
 .name{
@@ -289,8 +280,8 @@ span{
 	}
 	
 	#designers{
-		width: 960px;
 		margin:0 auto;
+		float: left;
 	}
 	
 	.designer-profile{
@@ -298,7 +289,7 @@ span{
 		float: none;
 	}
 	
-	.designer-photo{
+	.profile-photo{
 		width: 100%;
 	}
 	
