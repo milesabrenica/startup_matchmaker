@@ -95,55 +95,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/startup_matchmaker\/assets\/college-students.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 134113,
-		"inputAbbreviatedPath": "\/startup_matchmaker\/assets\/college-students.jpg",
-		"outputAbbreviatedPath": "\/startup_matchmaker\/assets\/college-students.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/startup_matchmaker\/assets\/StartupMatchmaker.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 762558,
-		"inputAbbreviatedPath": "\/startup_matchmaker\/assets\/StartupMatchmaker.png",
-		"outputAbbreviatedPath": "\/startup_matchmaker\/assets\/StartupMatchmaker.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/startup_matchmaker\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/startup_matchmaker\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/startup_matchmaker\/reset.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/startup_matchmaker\/reset.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/startup_matchmaker\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/startup_matchmaker\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/startup_matchmaker_extrapages\/designer-page-what-it-should-look-like.png": {
 		"fileType": 32768,
 		"ignore": 0,
