@@ -22,6 +22,6 @@ $(document).ready(function(){
 			
 		});
 
-	$(".profile-photo").append("<div class='profile-photo'>"+"<img class='nophoto'src='nophoto.png'>"+"</div>")
+	$(".profile-photo").append("<div class='profile-photo'>"+"<img class='nophoto'src='imgs/nophoto.png'>"+"</div>")
 });
 
